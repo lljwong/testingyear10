@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    font-size: 16px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    list-style-type: none;                                                                                                                                                                                              
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #07be8d;
+    z-index: 10;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: tahoma;
+    font-size: 26px;
+    line-height: 24px;
+    color: aquamarine;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.caption {
+    width: 60%;
+}
+
+section {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+}
+
+#intro .caption {
+    top: 100px;
+    left: 75px;
+}
+
+#second .caption {
+    top: 150px;
+    right: 75px;
+}
+
+#third .caption {
+    bottom: 100px;
+    left: 75px;
+}
+
+#fourth .caption {
+    bottom: 100px;
+    right: 75px;
+}
+
+
+#intro {
+    background: url(Images/ws_Water_drops_on_leaf_1920x1080.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 770px;
+}
+
+#car .car {
+    position: absolute;
+    top: 200px;
+    right: 75px;
+    z-index: 2;
+
+}
+
+#second {
+    background: url(Images/Water-Wallpaper-Hd-049.jpg) 50% 0 no-repeat fixed;
+    height: 1300px;
+    overflow: hidden;
+}
+
+#third {
+    background: url(Images/351010.jpg) 50% 0 no-repeat fixed;
+    height: 900px;
+    overflow: hidden;
+}
+
+#fourth {
+    background: url(Images/close-up_blue_water_drops_4543_1920x1080.jpg) 50% 0 no-repeat fixed;
+    height: 850px;
+    overflow: hidden;
+}
